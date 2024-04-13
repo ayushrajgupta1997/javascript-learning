@@ -6,17 +6,17 @@ const mnc = ["Accenture", "Wipro", "Infy"]
 
 // Not correct way to merge
  
-// big4.push(mnc)  //it push mnc array in big4, will not merge
+big4.push(mnc)  //it push mnc array in big4, will not merge
 
-// console.log(big4) // so array takes mnc array as element so here mnc array is single elemnt in big4 
-// console.log(big4.length) //4
+console.log(big4) // so array takes mnc array as element so here mnc array is single elemnt in big4 
+console.log(big4.length) //4
 
 
 // correct way to merge
 
 const allOrg = big4.concat(mnc)  
 
-// console.log(allOrg) //[ 'E&Y', 'kpmg', 'pwc', 'Accenture', 'Wipro', 'Infy' ]
+console.log(allOrg) //[ 'E&Y', 'kpmg', 'pwc', 'Accenture', 'Wipro', 'Infy' ]
 
 // OR you can Spread Operator results are same
 
