@@ -7,7 +7,7 @@ const arr = [0 , 1 , 2 , 3 , 4 , true, "Ayush"] //inside the square brackets we 
 
 const myArr = [0 , 1 , 2 , 3 , 4 , 5] 
 const heros = ["Name1" ,"Name2" ,"Name3"]
-console.log(heros);
+// console.log(heros);
 
 // other way to delcare array
 
@@ -21,8 +21,11 @@ console.log(heros);
 heros.pop()
 console.log(heros);
 
+console.log(myArr)
 myArr.unshift(9, 10)
-myArr.shift()
+
+myArr.shift(9,10)
+console.log(myArr, "shift")
 console.log(myArr.includes(6));
 console.log(myArr.indexOf(3));
 
