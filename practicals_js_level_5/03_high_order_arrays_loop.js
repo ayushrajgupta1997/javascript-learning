@@ -17,7 +17,7 @@ for (const greet of greeting) {
     console.log(`Each char of greetings ${greet}`);  
 }
 
-//maps   -> they are know for unique values
+// maps   -> they are know for unique values
 
 const map = new Map()  //it will return obj
 
@@ -56,7 +56,7 @@ for (const key in myObject) {
 
 }
 
-//check for arrays
+// //check for arrays
 
 for (const key in arr) {
 

@@ -28,7 +28,8 @@ let globalScope= 300   //global scope
 if(true){
     let a = 2
     const b = 10    //block scope
-
+    
     console.log('Inner: ' ,a);
+    
 }
-console.log([globalScope])  //now you cannot access value in console 
+console.log(globalScope,"global")  //now you cannot access value in console 

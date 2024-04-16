@@ -38,7 +38,7 @@ const addTwo = (num1, num2) => {
     return num1 + num2
 }                                //Basic arrow function
 
-console.log(addTwo(2 ,3))
+console.log(addTwo(2 ,3),"op/1" )
 
 
 //Implicit return

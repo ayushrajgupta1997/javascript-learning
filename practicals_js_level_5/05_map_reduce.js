@@ -19,7 +19,7 @@ const biggerValuesExplicit = values.filter( (num) => {  //when u open scope {} t
     return    num > 4       //in this type we have to use return due to explicit function || or we can use implicit function
 } )
 
-console.log(biggerValuesExplicit);
+console.log(biggerValuesExplicit, 'explicit');
 
 // //implicit
 
