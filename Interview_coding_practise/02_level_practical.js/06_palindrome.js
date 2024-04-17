@@ -1,10 +1,11 @@
-let str = "aman"
+let str = "Naman"
 
 function checkPalindrome (str) {
-    if(str === str.split('').reverse().join('')){
-        return (`${str} is palindrome`)
+        toCheck = str.toLowerCase()
+    if(toCheck === toCheck.split('').reverse().join('')){
+        return (`${toCheck} is palindrome`)
     }else {
-        return (`${str} is not palindrome`)
+        return (`${toCheck} is not palindrome`)
     } 
 
 }
