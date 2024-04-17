@@ -8,17 +8,17 @@ if(true){} //if condition is true the only inside code will get executed
 
 // NESTED if condition
 
-// const balance = 1000
+const balance = 1000
 
-// if(balance < 500){
-//     console.log('balance is less then 500');
-// }else if(balance <750){
-//     console.log('balance is less then 750');     //simple nested condition
-// }else if(balance < 900){
-//     console.log('balance is less then 900');
-// }else {
-//     console.log('balance is less then 1200');
-// }
+if(balance < 500){
+    console.log('balance is less then 500');
+}else if(balance <750){
+    console.log('balance is less then 750');     //simple nested condition
+}else if(balance < 900){
+    console.log('balance is less then 900');
+}else {
+    console.log('balance is less then 1200');
+}
 
 
 //to check multiple condition
